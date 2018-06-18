@@ -11,7 +11,7 @@ library(shiny)
 library(baseballr)
 library(tidyverse)
 library(shinythemes)
-batters <- read_csv("/Users/noaholsen/GitHub/MLB-Web-App/bat_split.csv")
+batters <- read_csv("bat_split.csv")
 # Define UI for application that draws a histogram
 shinyUI(fluidPage(theme = shinytheme("paper"),
                   

@@ -12,7 +12,7 @@ library(baseballr)
 library(tidyverse)
 library(knitr)
 library(kableExtra)
-batters <- read_csv("/Users/noaholsen/GitHub/MLB-Web-App/bat_split.csv")
+batters <- read_csv("bat_split.csv")
 # Define server logic required to draw a histogram
 shinyServer(function(input, output) {
    
